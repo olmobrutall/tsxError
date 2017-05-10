@@ -10,9 +10,7 @@ export default class Typeahead2 extends React.Component<Typeahead2Props, {}>
     render() {
 
         return (
-            <span {...this.props.spanAttrs} className={classes(this.props.spanAttrs && this.props.spanAttrs.className, "sf-typeahead")}>
-              
-            </span>
+            <span {...this.props.spanAttrs} className={classes(this.props.spanAttrs && this.props.spanAttrs.className, "sf-typeahead")}/>
         );
     }
 }
