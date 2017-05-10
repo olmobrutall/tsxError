@@ -1,0 +1,19 @@
+﻿{
+  "compilerOptions": {
+    "target": "es5",
+    "sourceMap": false,
+    "module": "commonjs",
+    "jsx": "react",
+    "noEmit": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "strictNullChecks": true,
+    "baseUrl": ".",
+    "lib": [
+      "es2017",
+      "dom"
+    ]
+  },
+  "exclude": [ "node_modules" ]
+}
